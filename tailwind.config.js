@@ -8,6 +8,9 @@ module.exports = {
        height: {
          '1/2-screen': '50vh'
        },
+       width: {
+          'textBox': '515px'
+       },
        fontFamily: {
         'Nunito': ['Nunito', 'sans-serif'],
         'Poppins': ['Poppins', 'sans-serif'],

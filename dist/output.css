@@ -474,40 +474,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.container{
-  width: 100%;
-}
-
-@media (min-width: 640px){
-  .container{
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px){
-  .container{
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px){
-  .container{
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px){
-  .container{
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px){
-  .container{
-    max-width: 1536px;
-  }
-}
-
 .absolute{
   position: absolute;
 }
@@ -877,4 +843,45 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+@media (min-width: 768px){
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:mt-5{
+    margin-top: 1.25rem;
+  }
+
+  .md\:w-64{
+    width: 16rem;
+  }
+
+  .md\:w-6{
+    width: 1.5rem;
+  }
+
+  .md\:w-36{
+    width: 9rem;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:leading-6{
+    line-height: 1.5rem;
+  }
 }
