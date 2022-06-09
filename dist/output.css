@@ -867,14 +867,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 9rem;
   }
 
-  .md\:w-5\/6{
-    width: 83.333333%;
-  }
-
-  .md\:w-textBox{
-    width: 515px;
-  }
-
   .md\:flex-row{
     flex-direction: row;
   }
