@@ -9,7 +9,7 @@ module.exports = {
          '1/2-screen': '50vh'
        },
        width: {
-          'textBox': '515px'
+          'textBox': '576px'
        },
        fontFamily: {
         'Nunito': ['Nunito', 'sans-serif'],
