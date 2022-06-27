@@ -15,6 +15,9 @@ module.exports = {
         'Nunito': ['Nunito', 'sans-serif'],
         'Poppins': ['Poppins', 'sans-serif'],
         'Caveat': ['Caveat', 'sans-serif'],
+       },
+       fontSize: {
+         '22': '22px'
        }
      },
   },
