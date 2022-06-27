@@ -159,31 +159,42 @@
             </div>
         </section>
         <section>
-            <div class="text-white px-8 pt-24">
-                <div class="mb-8">
-                    <div>
-                         <img src="./images/Dolby-Audio.svg" width="192" height="80" class="mx-auto mb-12">
-                         <h3 class="text-center text-2xl font-bold leading-6 mb-12">IMMERSIVE<br>SURROUND AUDIO</h3>
-                         <p class="text-left mt-3 px-3 py-2" style="background-color: rgba(38, 38, 37, 0.5);
-                         backdrop-filter: blur(4px);
-                         border-radius: 4px;
-                         min-width: 280px;">            High-quality, custom-tuned 50mm neodymium audio drivers deliver excellent sound with the range needed to hear everything on the battlefield. The included USB adapter enables multi-channel Dolby® Audio 7.1 surround sound*, putting you right in the middle of your game.
-                        </p>
+            <div class="relative h-full">
+                <div class="flex flex-col justify-center">
+                    <!--for text-->
+                    <div class="text-white px-8 pt-24 relative z-20">
+                        <!--for using flex between two div of text -->
+                         <div class="mb-8 flex flex-col">
+                                <div>
+                                        <img src="./images/Dolby-Audio.svg" width="192" height="80" class="mx-auto mb-12">
+                                        <h3 class="text-center text-2xl font-bold leading-6 mb-12">IMMERSIVE<br>SURROUND AUDIO</h3>
+                                        <p class="text-left mt-3 px-3 py-2" style="background-color: rgba(38, 38, 37, 0.5);
+                                            backdrop-filter: blur(4px);
+                                            border-radius: 4px;
+                                            min-width: 280px;">            High-quality, custom-tuned 50mm neodymium audio drivers deliver excellent sound with the range needed to hear everything on the battlefield. The included USB adapter enables multi-channel Dolby® Audio 7.1 surround sound*, putting you right in the middle of your game.
+                                        </p>
+                                </div>
+                                <div class="mt-10 py-2 px-3" style="background-color: rgba(38,  38, 37, 0.5);
+                                backdrop-filter: blur(4px);
+                                border-radius: 4px;
+                                min-width: 280px;">
+                                    <p>
+                                        *Dolby Audio is only available using CORSAIR iCUE software on PC and Mac.
+                                    </p>
+                                </div>
+                         </div>
                     </div>
-                    <div class="mt-10 py-2 px-3" style="background-color: rgba(38, 38, 37, 0.5);
-                    backdrop-filter: blur(4px);
-                    border-radius: 4px;
-                    min-width: 280px;">
-                         <p>
-                            *Dolby Audio is only available using CORSAIR iCUE software on PC and Mac.
-                          </p>
-                    </div>
+                    <!--for image section-->
+                    <div class="flex justify-center relative z-10">
+                        <div>
+                            <img width="400px" height="400px" src="./images/hs65-headset-black.png" class="object-cover">
+                        </div>   
+                    </div>  
                 </div>
-                <div>
-                      <img src="./images/hs65-headset-black.png">
-                </div>
-            </div>
-            <video src="./images/HS65_Soundwave.webm" autoplay="true" loop="true" muted="true"></video>
+                <div class="">
+                    <video src="./images/HS65_Soundwave.webm" autoplay="true" loop="true" muted="true" class="absolute bottom-0 left-0 object-cover" style="height: 100%;"></video>
+                </div>   
+            </div>     
         </section>
     </div>
     
